@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markerting Agencia - Servicios Profesionales de Marketing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8; /* Un blanco suave para el fondo */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #ffffff; /* Fondo blanco para el encabezado */
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center; /* Centrar el contenido del encabezado */
+        }
+
+        .header img {
+            max-width: 250px; /* Tamaño máximo para tu logo */
+            height: auto;
+            display: block; /* Para centrar la imagen */
+            margin: 0 auto; /* Centra la imagen */
+        }
+
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        h1, h2 {
+            color: #0056b3; /* Azul para los títulos */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .service-item {
+            background-color: #e9f7ff; /* Fondo azul claro para los servicios */
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .service-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-item h3 {
+            color: #0056b3; /* Azul para los nombres de los servicios */
+            margin-bottom: 10px;
+        }
+
+        .service-item p {
+            font-size: 0.95em;
+            color: #555;
+        }
+
+        .whatsapp-button {
+            display: inline-block;
+            background-color: #25D366; /* Verde de WhatsApp */
+            color: white;
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-top: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        .whatsapp-button:hover {
+            background-color: #1DA851; /* Verde más oscuro al pasar el ratón */
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 50px;
+            background-color: #ffffff;
+            color: #777;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="logo.png" alt="Markerting Agencia Logo">
+    </div>
+
+    <div class="container">
+        <h1>Impulsa Tu Marca con Markerting Agencia</h1>
+        <p style="text-align: center; font-size: 1.1em; max-width: 700px; margin: 0 auto 40px auto;">
+            Somos una agencia de marketing digital dedicada a potenciar la presencia online de tu negocio y alcanzar tus objetivos.
+        </p>
+
+        <h2>Nuestros Servicios</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <h3>Estrategias de Contenido</h3>
+                <p>Creamos contenido relevante y valioso para atraer a tu audiencia y construir autoridad de marca.</p>
+            </div>
+            <div class="service-item">
+                <h3>Publicidad Digital (SEM)</h3>
+                <p>Gestionamos campañas efectivas en Google Ads, Meta Ads y otras plataformas para maximizar tu retorno de inversión.</p>
+            </div>
+            <div class="service-item">
+                <h3>Gestión de Redes Sociales</h3>
+                <p>Diseñamos y ejecutamos estrategias de social media para conectar con tus clientes y fortalecer tu comunidad.</p>
+            </div>
+            <div class="service-item">
+                <h3>Optimización SEO</h3>
+                <p>Mejoramos la visibilidad de tu sitio web en los motores de búsqueda para que tus clientes te encuentren fácilmente.</p>
+            </div>
+            <div class="service-item">
+                <h3>Diseño Web y Experiencia de Usuario</h3>
+                <p>Desarrollamos sitios web modernos, intuitivos y optimizados para convertir visitantes en clientes.</p>
+            </div>
+            <div class="service-item">
+                <h3>Email Marketing</h3>
+                <p>Diseñamos campañas de email que nutren tus leads y fidelizan a tus clientes existentes.</p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 50px;">
+            <a href="https://wa.me/584126542998?text=Hola!%20Me%20interesa%20saber%20más%20sobre%20sus%20servicios%20de%20marketing." class="whatsapp-button" target="_blank">
+                ¡Contáctanos por WhatsApp!
+            </a>
+            <p style="margin-top: 15px; font-size: 0.9em; color: #666;">
+                Estamos listos para ayudarte a crecer.
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Markerting Agencia. Todos los derechos reservados.</p>
+    </div>
+
+</body>
+</html>
